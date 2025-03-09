@@ -1,0 +1,52 @@
+header {
+    padding: 2rem $gutter;
+    align-items: center;
+    h1 {font-size: 2rem;}
+}
+
+#theButton {
+    display: none;
+}
+
+#theNav {
+    grid-template-rows: 1fr;
+}
+
+#theNav ul, #theNav.open ul {
+    display: flex;
+    li a {
+        padding: .4rem 1rem;
+        border: none;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+}
+
+#navWrapper {
+    border-bottom: 1px solid $SecondaryColor;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        flex-basis: 23%;
+        margin: .4rem;
+        img {
+            width: 100px;
+            height: 100px;
+        }
+    }
+}
+div.reviewWrapper {
+    margin: 1.5rem;
+}
+
+.reviewCards {
+    display: flex;
+    flex-wrap: wrap;
+    section {
+        flex-basis: 30%;
+    }
+}
